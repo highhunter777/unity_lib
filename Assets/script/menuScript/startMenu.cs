@@ -10,6 +10,8 @@ public class startMenu : MonoBehaviour
     {
         GameObject gameSettingUI = GameObject.FindGameObjectWithTag("gameSettingUI").transform.GetChild(0).gameObject;
         gameSettingUI.SetActive(false);
+        GameObject musicUI = GameObject.FindGameObjectWithTag("musicUI").transform.GetChild(0).gameObject;
+        musicUI.SetActive(false);
 
     }
 
