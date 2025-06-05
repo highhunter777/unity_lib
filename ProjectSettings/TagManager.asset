@@ -4,9 +4,18 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Enemy
+  - Border
+  - Exp
+  - Manager
+  - Store
+  - LevelUp
+  - BGM
   - menu
   - gameSettingUI
-  - BGM
+  - musicUI
+  - Field
+  - PauseUI
   layers:
   - Default
   - TransparentFX
@@ -14,8 +23,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Enemy
+  - Exp
   - 
   - 
   - 
@@ -43,4 +52,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 3055761467
     locked: 0
